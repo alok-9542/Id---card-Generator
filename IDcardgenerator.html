@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title> ID Card Generator </title>
+        <link rel="stylesheet" href="IDcardgenerator.css"/>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+       
+    </head>
+
+    <body>
+
+        <div id="d1">
+
+            <div id="he1">
+                <h1 align="center">ID Card Generator</h1>
+            </div>
+
+            <div class="dd1">
+                <br/>
+            <h3 color="blue" id="p1">Enter Student Details</h3>
+            <form action="IDcardgenerator.html" method="GET">
+               
+                <div class="o1">
+                    <b>Enter Name:</b>
+                    <br/>
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="user" id="usnm"/> 
+                </div>
+
+                <br/>
+                <br/>
+
+                <div class="o1">
+                    <b>Enter College Name:</b>
+                    <br/>
+                    <i class="fa fa-university"></i>
+                    <input type="text" name="college" id="collegename"/> 
+                </div>
+
+                <br/>
+                <br/>
+
+                <div class="o1">
+                    <b>Enter Location:</b>
+                    <br/>
+                    <i class="fa fa-address-book"></i>
+                    <input type="text" name="location" id="userlocation"> 
+                </div>
+                <br/>
+                <br/>
+
+                <div class="o1">
+                    <b>Enter Age:</b>
+                    <br/>
+                    <i class="fa fa-id-badge"></i>
+                    <input type="number" name="age" id="aged"/> 
+                </div>
+
+                <br/>
+                <br/>
+
+                <div class="o1">
+                    <b>Enter Contact No:</b>
+                    <br/>
+                    <i class="fa fa-phone"></i>
+                    <input type="text" name="phone" id="contact"/> 
+                </div>
+
+                <br/>
+                <div class="o1">
+                    <b>Enter student's picture:</b>
+                    <p><input type="file" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+                    <p><label for="file">Upload Image</label></p> 
+                </div>
+    
+                <div class="o1">
+                <button type="button" onclick="GenerateIDCard()" id="b1">Generate Card</button>
+                </div>
+            </form>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div id="dd6">
+        
+        </div>
+        
+        <p><img id="output" width="200" /></p>
+        <div id="dd3">
+            <div id="dd4">
+                <div id="dd5">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="g1">
+    </div>
+
+    <script>
+        var loadFile = function(event) {
+	var image = document.getElementById("output");
+	image.src = URL.createObjectURL(event.target.files[0]);
+};
+    </script>
+       
+    <script src="IDcardgenerator.js" type = "text/javascript">
+    
+    </script>
+    </body>
+</html>

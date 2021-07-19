@@ -1,0 +1,110 @@
+#d1{
+    position: relative;
+    height: 600px;
+    width:800px;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 11px;
+}
+#he1{
+    position: relative;
+    color: white;
+    background-color: blue;
+    height: 45px;
+}
+#p1{
+    color: blue;
+    margin-left: 80px;
+}
+.o1{
+    margin-left: 80px;
+}
+#b1{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    height: 25px;
+    width: 120px;
+    padding: 2px;
+    margin-top: 0px;
+}
+
+.dd1{
+    height: 535px;
+    width: 400px;
+    border:1px solid grey;
+}
+ .dd2{
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 0px;
+    color: hotpink;
+    border: 2px salmon;
+    height:190px;
+    width: 390px;
+    background-color: springgreen;
+}
+#dd3{
+    
+    height: 190px;
+    width: 335px;
+    margin-top: 5px;
+    border: 2px solid purple;
+    border-radius: 8px;
+    margin-left: 40px;
+    background-color: chartreuse;
+}
+.dd1,#dd3{
+    float: left;
+}
+.dd2.l1{
+    border:1px saddlebrown;
+   
+}
+.pp1{
+    margin-top: 25px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    margin-left: 30px;
+   
+}
+#dd4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    height:420px;
+}
+.l1{
+    color: black;
+}
+#o1{
+    text-align: center;
+}
+#dd6{
+    margin-left: 50px;
+    font-size: 20px;
+}
+#dd4{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: black;
+    margin-left: 10px;
+}
+#f1{
+    color: black;
+    font-style: bold;
+}
+#dd5{
+    height: 40px;
+    width:50px;
+    background-color:chartreuse;
+    margin-right: 100px;
+}
+#output{
+    height: 150px;
+    width: 150px;
+    margin-left: 110px;
+}
